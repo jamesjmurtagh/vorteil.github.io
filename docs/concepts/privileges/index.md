@@ -23,7 +23,7 @@ more information on how to properly start the server.
 ...
 ```
 
-We can overcome this by changing the value of the `--program.0.privilege` field to `user` or `superuser`:
+We can overcome this by changing the value of the `--program[0].privilege` field to `user` or `superuser`:
 
 ```
 $ vorteil run https://apps.vorteil.io/file/vorteil/postgres --program[0].privilege user

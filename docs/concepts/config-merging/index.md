@@ -68,7 +68,7 @@ VCFG:
 ```
 Flag:
 
---program.1.args = "--start"
+--program[1].args = "--start"
 ```
 
 Result:
